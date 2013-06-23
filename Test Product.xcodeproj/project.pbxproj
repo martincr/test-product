@@ -405,6 +405,7 @@
 				GCC_PREFIX_HEADER = "Test Product/Test Product-Prefix.pch";
 				INFOPLIST_FILE = "Test Product/Test Product-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -416,6 +417,7 @@
 				GCC_PREFIX_HEADER = "Test Product/Test Product-Prefix.pch";
 				INFOPLIST_FILE = "Test Product/Test Product-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -473,6 +475,7 @@
 				20D1911A16F60743008939B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20D1911B16F60743008939B8 /* Build configuration list for PBXNativeTarget "Test ProductTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +484,7 @@
 				20D1911D16F60743008939B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
